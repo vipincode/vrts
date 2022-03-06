@@ -1,0 +1,27 @@
+{
+  "name": "typscript-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/vipincode/vrts.git"
+  },
+  "keywords": [
+    "learning",
+    "basics",
+    "of",
+    "typescript"
+  ],
+  "author": "Vipin Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
+}
