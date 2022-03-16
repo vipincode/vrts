@@ -12,10 +12,10 @@ axios.get(url).then((response) => {
   const todo = response.data as Todo;
 
   const id = todo.id;
-  const title = todo.title;
-  const finished = todo.completed;
+    const title = todo.title;
+          const finished = todo.completed;
   logData(id, title, finished);
-});
+     });
 
 const logData = (id: number, title: string, finished: boolean) => {
   console.log(`
