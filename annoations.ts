@@ -26,9 +26,34 @@ class Car {}
 
 let car: Car = new Car()
 
-// Object Literal
+// Object Literal Annotation
 
 const point: {x: number; y: number} = {
   x: 10,
   y: 20
+}
+
+// Function Annotation
+const logNumber: (i: number) => void = (i: number) => {
+  console.log(i);
+}
+
+// JSON PARSE
+
+const json= '{"x": 20, "y": 10}'
+const coordinates: {x: number, y: number} = JSON.parse(json)
+console.log(coordinates)
+
+// coordinates.kljjlkjkljklj;
+
+
+// Type `infrence` and `annotation`
+
+let numbers = [-10, -1, -12]
+// let numberAboveZero = false // This is type infrence 
+let numberAboveZero: boolean | number = false // This is type `anotation`
+for( let i =0; i < numbers.length; i++) {
+  if( numbers[i] > 0 ) {
+    numberAboveZero = numbers[i]
+  }
 }
